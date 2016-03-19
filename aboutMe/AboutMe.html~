@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My first styled page</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+</head>
+
+
+<div class = "pageOne">
+<h1> Hi Guys! </h1>
+	<img class = "imagePush" src = "myImages/me.jpg" width="400" height = "300" align = "right" />
+	<p> Hi guys! I'm Victor. I am currently a computer science major planning to minor in math
+		I'm hope we get to know each other better thoughout this project 
+		I am currently taking CS 211, 212, 240 and Math 120. </p>
+	<h3 class = "text-info"> My hobbies are: </h3>
+	<ul class = "text-info">
+		<li> Videogames </li>
+		<li> Playing the piano </li>
+		<li> Going to the gym (maybe when I feel like it) </li>
+		<li> Learning new things </li>
+		<li> and sleeping (yassss) </li>
+	</ul> 
+</div>
+<div class = "pageTwo">
+<h1> What do I hope to gain? </h1>
+	<img class = "imagePush" src = "http://kenstonpd.org/wp-content/uploads/2014/01/technology-hand.jpg" width = "375" height= "300" align = "right" />
+	<p> My general goal is to learn as much as I, and I feel working with all of you will help me reach toward achieving that goal.
+    We've been born into a world where people see computers as tools, entertainment and a way of life.
+    I want to be a part of this world that never would have been thought possible just decades ago.</p>
+	<p> "Our civilization runs on software. Improving software and finding new uses for software are two of the ways an individual can help improve the lives of many." <br>- Bjarne Stroustrup (Creator of C++)</br></p>
+
+</div>
+<!--<div class = "pageThree">
+	<h3> Placeholder </h3>
+</div>-->
+<div class = "end">
+	<h3>I do NOT own any of the background wallpapers on this site. All images used belong to their respectful owners. <h3>
+</div>
+</html>
