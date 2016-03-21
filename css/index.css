@@ -1,0 +1,12 @@
+body {
+  font-family: monospace;
+  font-weight: 300;
+  background-color: #F6F6F6;
+  color: #666;
+}
+
+#rules {
+  font-size: 1.15em;
+  font-weight: bolder;
+  color: #000;
+}
