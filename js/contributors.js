@@ -27,7 +27,7 @@ var contributors = (function(window) {
           };
         });
 
-        return renderContentHeader(forksCount, contributors.length) +
+        return renderContentHeader(contributors.length, forksCount) +
                renderContributorTitle() +
                renderGallery(contributors);
       })
@@ -69,14 +69,14 @@ var contributors = (function(window) {
     return openHeadingTag + renderedHeading + closeHeadingTag;
   };
 
-  var renderContentHeader = function(forks, pullRequests) {
+  var renderContentHeader = function(pullRequests, forks) {
     var openContentTag = "<div class='content flex-container'>";
     var sentence = forks > pullRequests ? "Need more PRs!" : "Nice PRs!"; 
     var closeContentTag = "</div>";
     
     return openContentTag + 
-           renderHeadingIcon('users', forks) +
-           renderHeadingIcon('code-fork', pullRequests) +
+           renderHeadingIcon('code-fork', forks) +
+           renderHeadingIcon('users', pullRequests) +
            renderHeading(sentence) +
            closeContentTag;
   };
