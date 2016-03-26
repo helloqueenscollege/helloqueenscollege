@@ -2,21 +2,49 @@
 <html>
   <head>
     <title>Submit a PR, let's alter this site</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/contributors.css">
   </head>
   <body>
-    <h1>HELLO QUEENS COLLEGE!</h1>
-    <p>
-      Let's play a game! Go <a href="https://github.com/crisvergara/helloqueenscollege">here</a>
-      and submit a pull request. I'll merge it and update this site with your new
-      content :)
-    </p>
-    <h3>RULES!</h3>
-    <ul>
-      <li>Only static content allowed</li>
-      <li>No preprocessing. Just native JS, CSS, HTML, SVG, etc.</li>
-      <li>Do not alter these rules or welcome text (but you CAN alter the index)</li>
-      <li>No offensive or inappropriate content</li>
-      <li>No exploitative or underhanded code</li>
-    </ul>
+
+    <div id="banner">
+      <h1><code>printf(<em>"Hello, Queens College!"</em>);</code></h1>
+    </div>
+
+    <div class="content">
+      <div>
+        <p>
+          Let's play a game! Go <a href="https://github.com/helloqueenscollege/helloqueenscollege">here</a>
+          and submit a pull request. I'll merge it and update this site with your new
+          content :)
+        </p>
+        <p>
+          Go <a href="https://github.com/helloqueenscollege/web-dev-resources">here</a> to continue learning!
+        </p>
+      </div>
+    </div>
+
+    <div class="content">
+      <h3><u>RULES</u></h3>
+      <ul>
+        <li>Only static content allowed</li>
+        <li>No preprocessing. Just native JS, CSS, HTML, SVG, etc.</li>
+        <li>Do not alter these rules or welcome text (but you CAN alter the index)</li>
+        <li>No offensive or inappropriate content</li>
+        <li>No exploitative or underhanded code</li>
+      </ul>
+    </div>
+
+    <div id="contributors"></div>
+
+    <script src='js/contributors.js'></script>
+    <script>
+      window.onload = function() {
+        contributors.init();
+       };
+    </script>
   </body>
 </html>

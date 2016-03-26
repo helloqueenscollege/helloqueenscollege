@@ -1,0 +1,39 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  background-color: #F0F0F0;
+  color: #666;
+}
+
+#banner {
+  margin: auto;
+  text-align: center;
+  line-height: 4em;
+}
+
+.content {
+  background-color: #F9F9F9;
+  margin: auto;
+  margin-top: 2em;
+  max-width: 37em;
+  padding: 1em 2em 1em 2em;
+  text-align: justify;
+  border-style: dashed;
+  border-radius: 0.5em;
+  border-width: thin;
+}
+
+code {
+  font-family: 'Source Code Pro';
+  background-color: #ddd;
+  border-style: solid;
+  border-width: thin;
+  border-color: #BBB;
+  padding: 0.17em 0.3em 0.17em 0.3em;
+  border-radius: 0.2em;
+}
+
+code em {
+  font-style: normal;
+  color: #999;
+}

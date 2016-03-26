@@ -2,35 +2,35 @@ body{
 	text-align: center;
 	color: white;
 	padding:0;
-	margin-top:0px;
-	margin-left:0px;
-	margin-right:0px;
-	margin-bottom:0px;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
 	
 }
-.pageOne{
+#pageOne{
     background:url(http://hdwallpaper2013.com/wp-content/uploads/2013/02/Download-Space-Background-Images-HD-Wallpaper.jpg);
 	background-size:cover;
 	background-attachment:fixed;
 	height: 800px;
 	position: relative;
 	padding: 0;
-	margin-top:0px;
+	margin-top:0;
 	
 	
 }
 
-.pageTwo{
+#pageTwo{
 	background:url(http://www.wallpaper-box.com/star/images/star3.jpg);
 	background-size:cover;
 	background-attachment:fixed;
 	position:relative;
 	height: 800px;
 	padding: 0;
-	margin-top:0px;
+	margin-top:0;
 }
 
-.pageThree{
+#pageThree{
 	background:url(http://www.hdwallpapers.org/wallpapers/blue-galaxy-distant-planets-1920x1080.jpg);
 	background-size:cover;
 	background-attachment:fixed;
@@ -43,7 +43,7 @@ body{
 
 .text-info{
 	width:600px;
-	margin-top:0px;
+	margin-top:0;
 	font-size:25px;
 	margin-bottom:10px;
 	text-align: left;
@@ -60,22 +60,31 @@ body{
 
 h1{
 	padding: 0;
-	margin-top:0px;
+	margin-top:0;
 	margin-bottom: 100px;
 	font-size: 100px;
 }
 
 h3{
-	margin-top:0px;
-	margin-bottom:0px;
+	margin-top:0;
+	margin-bottom:0;
 	font-weight:normal;
 }
 
 p{
 	width:600px;
-	margin-top:0px;
+	margin-top:0;
 	font-size:25px;
 	margin-bottom:30px;
 	text-align:left;
 }
-
+#topheading{
+	height: 25px;
+	padding:0;
+	margin-top:0;
+	margin-bottom:0;
+	background:black;
+	font-family = 'Tangerine';
+	text-align:left;
+	color: white;
+}
